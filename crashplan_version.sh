@@ -21,3 +21,5 @@ if [ -f "/Applications/PROServer.app/Contents/Info.plist" ] ; then
 else
     echo "CrashPlan server not installed"
 fi
+
+exit 0

@@ -6,7 +6,7 @@
 
 ### Requires CrashPlan Pro: https://www.crashplan.com/en-us/business/
 
-# If CrashPlan client is installed, report version
+# If CrashPlan client is present, report version
 if [ -f "/Applications/CrashPlan.app/Contents/Info.plist" ] ; then
 	CLIENT_VERSION=$( defaults read "/Applications/CrashPlan.app/Contents/Info.plist" CFBundleShortVersionString )
 	echo "CrashPlan client version: $CLIENT_VERSION"
